@@ -57,8 +57,18 @@ func (n N) String() string {
 
 func main() {
 	n := Zero()
+	if n.IsZero() {
+		fmt.Println("zero")
+	} else {
+		fmt.Println("not zero")
+	}
 	n = n.Succ()
 	n = n.Succ()
+	if n.IsZero() {
+		fmt.Println("zero")
+	} else {
+		fmt.Println("not zero")
+	}
 	n = n.Succ()
 	n = n.Succ()
 	fmt.Println(n)
