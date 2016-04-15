@@ -62,12 +62,11 @@ gorutine/channel
 channel
 
 *c++*
-MPICH
+MPICH(2)
 
 *Java
 JCSP
 
-.net,ocaml..etcetc
 
 * grammer
 
