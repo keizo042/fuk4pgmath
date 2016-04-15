@@ -11,8 +11,9 @@ github/keizo042
 - keizo
 - 不良大学生
 - haskeller/gopher
-- i like mruby
+- I like mruby
 - rust...?
+- beginner of lisp
 
 * おはなし
 - プロセス代数
@@ -33,21 +34,15 @@ github/keizo042
 - プロセス代数の計算モデルの一つ
 - CSP由来の計算モデル
 - lambda よりあとのギリシャ文字から語呂のいいモノを選んだ
-- 最近話題になってるプログラミング言語の背景の一つになっている
+- 最近話題になってるプログラミング言語らの背景の一つになっている
 
 
 * プログラミングにおいて
 安全なスレッド間でのデータのやりとり
 
-golang say
+golang community say
 .code golangsay.txt
 
-* 来歴
-
-- Petri net
-- Communicating Sequential System (CCS) 
-- Communicating Sequential Process (CSP)
-- Algebra of Sequential Process (ASP) ※ここからAlgebra of Procesというワード
 
 * programming language
 
@@ -67,19 +62,25 @@ MPICH(2)
 *Java*
 JCSP
 
+* 来歴
+
+- Petri net
+- Communicating Sequential System (CCS) 
+- Communicating Sequential Process (CSP)
+- Algebra of Sequential Process (ASP) ※ここから Proces Algebraというワード
 
 * grammer
 
 .code grammer.txt
 
 pi calculusで存在するのは
-Process(プロセス)とport(経路)
+Process(プロセス)と名前付きport(経路)
 また、portにportを送ることも出来る(CCSではできない)
 
 * なにができる？
 - 自然数の定義
 - 真偽値の定義
-- *λ計算へのnecode*
+- *λ計算へのencode*
 
 
 * sample code
@@ -90,9 +91,14 @@ golangで書いた 自然数の定義もどき
 * closing
 
 - 並行並列処理を求められる処理がどんどん増えている
+- channelでのblockingも覚えると良い
 - mutexを用いたblockingも悪いものではない
 - 武器は多いほうが良い
-- channelでのblockingも覚えると良い
-- golagnって最高だよね
-
+- rust langも結構最高かもしれない？
+- でもgolangって最高だよね
+ 
+* ref
+Communicating and Mobile Systems The π-calculus.
+.link http://www.win.tue.nl/~hzantema/semvv.pdf プロセス代数の歴史のさーべい
+.link http://web.yl.is.s.u-tokyo.ac.jp/kobalab/kadai99/picalc.html sumii先生の簡単な紹介 (ISO-2022-JPでみてね)
 
