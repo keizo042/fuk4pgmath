@@ -14,6 +14,20 @@ github/keizo042
 - i like mruby
 - rust...?
 
+* おはなし
+- プロセス代数
+- π計算
+- for programming
+- grammer
+- かいてみた
+- closing
+
+* Process Algebra
+
+並行システムを形式的に記述する手法
+プロセスとデータのやりとりが存在
+ビジネスプロセス(BPML)や並行処理(channel)への応用がなされている
+
 * pi calculus
 
 - プロセス代数の計算モデルの一つ
@@ -21,25 +35,19 @@ github/keizo042
 - lambda よりあとのギリシャ文字から語呂のいいモノを選んだ
 - 最近話題になってるプログラミング言語の背景の一つになっている
 
-* Process Algebra
-
-並行システムを形式的に記述する手法
-プロセスとデータのやりとりが存在
-ビジネスプロセスや並行処理への応用がなされている
 
 * プログラミングにおいて
 安全なスレッド間でのデータのやりとり
 
 golang say
-    not communicating by shared memory, shared memory by communicating
-
+.code golangsay.txt
 
 * 来歴
 
-- petri net
-- Communicating Sequential System
-- Communicating Sequential Process
-- Algebra of Sequential Process
+- Petri net
+- Communicating Sequential System (CCS) 
+- Communicating Sequential Process (CSP)
+- Algebra of Sequential Process (ASP) ※ここからAlgebra of Procesというワード
 
 * programming language
 
@@ -53,6 +61,14 @@ gorutine/channel
 *rust*
 channel
 
+*c++*
+MPICH
+
+*Java
+JCSP
+
+.net,ocaml..etcetc
+
 * grammer
 
 .code grammer.txt
@@ -64,7 +80,7 @@ Process(プロセス)とport(経路)
 * なにができる？
 - 自然数の定義
 - 真偽値の定義
-- *λ計算へのncode*
+- *λ計算へのnecode*
 
 
 * sample code
@@ -73,4 +89,11 @@ golangで書いた 自然数の定義もどき
 .code natural.go
 
 * closing
+
+- 並行並列処理を求められる処理がどんどん増えている
+- mutexを用いたblockingも悪いものではない
+- 武器は多いほうが良い
+- channelでのblockingも覚えると良い
+- golagnって最高だよね
+
 
